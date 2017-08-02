@@ -22,3 +22,7 @@
 ````
 jQuery.getJSON( url [, data ] [, success ] )
 ````
+- [error](http://api.jquery.com/error/)
+````
+.error( handler )
+````

@@ -31,6 +31,12 @@ function loadData() {
             var article = articles[i];
             $nytElem.append('<li class="article">' + '<a href="' + article.web_url + '">' + article.headline.main + '</a>' + '<p>' + article.snippet + '</p>' + '</li>');
         };
+    })
+    .done(function() {
+        console.log("Success");
+        })
+    .fail(function() {
+        $nytHeaderElem.text('No New York Times Articles About ' + city);
     });
 
 

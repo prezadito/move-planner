@@ -12,7 +12,6 @@ function loadData() {
     $nytElem.text("");
 
     // load streetview
-
     var street = $('#street').val();
     var city = $('#city').val();
     var address = street + ', ' + city;
@@ -22,7 +21,17 @@ function loadData() {
     $greeting.text('So you want to live at ' + address+ '?');
     
     // Load New York Times articles
+    var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + city + "&sort=newest&api-key=831032deb5a94bb6923a338fb8c201fe";
+    
+    $.getJSON(nytUrl, function( data ) {
+        $nytHeaderElem.text('New York Times Articles About ' + city);
 
+        articles = data.response.docs;
+        for (var i = 0; i < articles.length; i++) {
+            var article = articles[i];
+            $nytElem.append('<li class="article">' + '<a href="' + article.web_url + '">' + article.headline.main + '</a>' + '<p>' + article.snippet + '</p>' + '</li>');
+        };
+    });
 
 
     // YOUR CODE GOES HERE!

@@ -13,12 +13,12 @@
 - [val](http://api.jquery.com/val/)
 ````
 .val()
+````
 - [append](http://api.jquery.com/append/)
 ````
-````
 .append()
-- [getJSON](http://api.jquery.com/jquery.getjson/)
 ````
+- [getJSON](http://api.jquery.com/jquery.getjson/)
 ````
 jQuery.getJSON( url [, data ] [, success ] )
 ````

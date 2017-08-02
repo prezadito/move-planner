@@ -7,10 +7,10 @@
 
 #### Helpful links:
 - [text](http://api.jquery.com/text/)
----- .text()
+```` .text()
 - [val](http://api.jquery.com/val/)
----- .val()
+```` .val()
 - [append](http://api.jquery.com/append/)
----- .append()
+```` .append()
 - [getJSON](http://api.jquery.com/jquery.getjson/)
----- jQuery.getJSON( url [, data ] [, success ] )
+```` jQuery.getJSON( url [, data ] [, success ] )

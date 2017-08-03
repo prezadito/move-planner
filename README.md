@@ -4,6 +4,8 @@ An app made by the instructions provided at [Intro to AJAX](https://www.udacity.
 ### API's used:
 * [New York Times API](http://developer.nytimes.com/)
 * [Google Street View Image API](https://developers.google.com/maps/documentation/streetview/intro)
+* [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
+* [Wikipedia API Cross-site Requests](https://www.mediawiki.org/wiki/API:Cross-site_requests)
 
 
 #### Helpful links:
@@ -26,4 +28,8 @@ jQuery.getJSON( url [, data ] [, success ] )
 - [error](http://api.jquery.com/error/)
 ````
 .error( handler )
+````
+- [ajax](http://api.jquery.com/jquery.ajax/)
+````
+jQuery.ajax( url [, settings ] )
 ````

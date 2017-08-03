@@ -40,7 +40,8 @@ function loadData() {
     });
 
 
-    // YOUR CODE GOES HERE!
+    // Load Wikipedia articles
+    
 
     return false;
 };

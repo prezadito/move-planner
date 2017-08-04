@@ -1,5 +1,5 @@
 # Move Planner
-An app made by the instructions provided at [Intro to AJAX](https://www.udacity.com/course/intro-to-ajax--ud110), by Udacity.
+Inspired by [this](https://www.udacity.com/course/intro-to-ajax--ud110) Udacity tutorial.
 
 ### API's used:
 * [New York Times API](http://developer.nytimes.com/)

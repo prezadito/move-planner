@@ -33,15 +33,36 @@ function loadData() {
         };
     })
     .done(function() {
-        console.log("Success");
+        console.log("Loading NYT articles was a Success!");
         })
     .fail(function() {
         $nytHeaderElem.text('No New York Times Articles About ' + city);
     });
 
 
-    // Load Wikipedia articles
-    
+    // Wikipedia AJAX requests
+    var wikiUrl = "http://en.wikipedia.org/w/api.php?action=opensearch&search=" + city + "&format=json&callback=wikiCallback";
+
+    var wikiRequestTimeout = setTimeout(function() {
+        $wikiElem.text('Failed to get Wikipedia resources');
+    }, 800);
+
+    $.ajax(wikiUrl, {
+        dataType: "jsonp",
+        // jsonp: "callback",
+        success: function ( response ) {
+            var articleList = response[1];
+
+            for (var i = 0; i < articleList.length; i++) {
+                articleStr = articleList[i];
+                var url = 'http://en.wikipedia.org/wiki/' + articleStr;
+                $wikiElem.append('<li><a href="' + url + '">' + articleStr + '</a></li>');
+            };
+
+            clearTimeout(wikiRequestTimeout);
+
+        }
+    });
 
     return false;
 };

@@ -1,14 +1,14 @@
 # Move Planner
 Inspired by [this](https://www.udacity.com/course/intro-to-ajax--ud110) Udacity tutorial.
 
-### API's used:
+## API's used:
 * [New York Times API](http://developer.nytimes.com/)
 * [Google Street View Image API](https://developers.google.com/maps/documentation/streetview/intro)
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
 * [Wikipedia API Cross-site Requests](https://www.mediawiki.org/wiki/API:Cross-site_requests)
 
 
-#### Helpful links:
+### Helpful links:
 - [text](http://api.jquery.com/text/)
 ````
 .text()
@@ -33,3 +33,11 @@ jQuery.getJSON( url [, data ] [, success ] )
 ````
 jQuery.ajax( url [, settings ] )
 ````
+
+
+#### To-Do's:
+- [x] Deploy to Heroku
+- [ ] Add personal styles
+- [ ] Make responsive
+- [ ] Add SEO and header tags
+- [ ] Track visits with Google Analytics

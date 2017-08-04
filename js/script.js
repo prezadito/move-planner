@@ -43,6 +43,7 @@ function loadData() {
     // Wikipedia AJAX requests
     var wikiUrl = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + city + "&format=json&callback=wikiCallback";
 
+    // If the request takes longer than 800 milliseconds (8 seconds) to come back, do this:
     var wikiRequestTimeout = setTimeout(function() {
         $wikiElem.text('Failed to get Wikipedia resources');
     }, 800);
@@ -59,6 +60,7 @@ function loadData() {
                 $wikiElem.append('<li><a href="' + url + '">' + articleStr + '</a></li>');
             };
 
+            // Don't timeout if request came back successfully
             clearTimeout(wikiRequestTimeout);
 
         }

@@ -30,7 +30,7 @@
  }
  
  input {
-     max-width: 350px;
+     max-width: 15em;
      color: #fff;
  }
  
@@ -70,7 +70,7 @@
  
  .nytimes-container {
      padding: 10px;
-     margin-right: 290px;
+     /* margin-right: 320px; */
      background-color: rgba(255, 255, 255, 0.5);
  }
  

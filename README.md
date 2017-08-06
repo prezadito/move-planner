@@ -37,7 +37,7 @@ jQuery.ajax( url [, settings ] )
 
 #### To-Do's:
 - [x] Deploy to Heroku
-- [ ] Add personal styles
+- [x] Add personal styles
 - [ ] Make responsive
 - [ ] Add SEO and header tags
 - [ ] Track visits with Google Analytics

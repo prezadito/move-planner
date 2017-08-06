@@ -1,3 +1,4 @@
+// Request and Render functions
 
 function loadData() {
 
@@ -70,3 +71,7 @@ function loadData() {
 };
 
 $('#form-container').submit(loadData);
+
+
+// UI Event handlers with Materialize
+

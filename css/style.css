@@ -3,7 +3,7 @@
  }
  
  body {
-     background-color: #CCC;
+     background-color: #42f4f4;
  }
  
  html {
@@ -13,6 +13,10 @@
  .form-container {
      margin: 0 auto;
      text-align: center;
+ }
+ 
+ label {
+     font-size: 1em;
  }
  
  label,
@@ -40,6 +44,7 @@
      text-align: center;
  }
  
+ ul,
  li {
      font-family: 'Noto Serif', serif;
  }

@@ -6,6 +6,7 @@ Inspired by [this](https://www.udacity.com/course/intro-to-ajax--ud110) Udacity 
 * [Google Street View Image API](https://developers.google.com/maps/documentation/streetview/intro)
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
 * [Wikipedia API Cross-site Requests](https://www.mediawiki.org/wiki/API:Cross-site_requests)
+* [Materialize](http://materializecss.com/)
 
 
 ### Helpful links:

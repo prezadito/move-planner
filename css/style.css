@@ -19,6 +19,11 @@
      font-size: 1em;
  }
  
+ input {
+     font-family: 'Noto Serif', serif;
+     font-weight: bold;
+ }
+ 
  label,
  button {
      margin: 0 1em;
@@ -39,8 +44,8 @@
  }
  
  .greeting {
-     color: black;
-     text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+     color: #fff;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
      text-align: center;
  }
  

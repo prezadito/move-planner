@@ -11,12 +11,8 @@
  }
  
  .form-container {
-     margin: 0 auto;
+     margin: 1em auto 0;
      text-align: center;
- }
- 
- label {
-     font-size: 1em;
  }
  
  input {
@@ -27,10 +23,12 @@
  label,
  button {
      margin: 0 1em;
+     font-size: 1.25em;
  }
  
  input {
-     max-width: 15em;
+     /* max-width: 12em; */
+     text-align: center;
      color: #fff;
  }
  
@@ -64,13 +62,13 @@
      float: right;
      width: 290px;
      padding: 10px;
-     /* margin-right: 10px; */
+     margin-top: 1em;
      background-color: rgba(255, 255, 255, 0.5);
  }
  
  .nytimes-container {
      padding: 10px;
-     /* margin-right: 320px; */
+     margin-top: 1em;
      background-color: rgba(255, 255, 255, 0.5);
  }
  
